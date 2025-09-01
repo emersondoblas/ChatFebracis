@@ -2,7 +2,7 @@
 # ChatFebracis
 
 #### Aluno: [Emerson Cerbino Doblas](https://github.com/emersondoblas/ChatFebracis)
-#### Orientadora: [Leonardo Mendoza](https://github.com/link_do_github).
+#### Orientadora: [Leonardo Forero Mendoza]
 
 ---
 
@@ -107,4 +107,5 @@ Matrícula: 231.101.084
 Pontifícia Universidade Católica do Rio de Janeiro
 
 Curso de Pós Graduação *Business Intelligence Master*
+
 

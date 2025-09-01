@@ -13,7 +13,7 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 ### Resumo
 
 A Febracis é a maior escola de negócios da américa latina e fornece treinamentos de desenvolvimento humano e treinamentos empresariais. 
-O método Cis é um dos treinamentos que a empresa oferece e também é o maior treinamento de inteligência emocional do mundo. É um treinamento que transforma a vida das pessoas em todas as áreas em tempo record. 
+O método Cis é um dos treinamentos que a empresa oferece e também é o maior treinamento de inteligência emocional do mundo. É um treinamento que transforma a vida das pessoas em todas as áreas em tempo recorde. 
 
 O desafio enfrentado pela empresa está relacionado ao tempo que um consultor comercial gasta para tirar as dúvidas do cliente, explicando o que é a empresa e o método. A empresa considera a venda desse curso como uma venda complexa, onde o cliente tem dificuldade de tangibilizar qual é o tipo de  melhora que ele terá em sua vida. 
 
@@ -107,3 +107,4 @@ Matrícula: 231.101.084
 Pontifícia Universidade Católica do Rio de Janeiro
 
 Curso de Pós Graduação *Business Intelligence Master*
+

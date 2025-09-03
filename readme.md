@@ -61,7 +61,7 @@ O CIS é reconhecido por sua eficácia em tempo recorde, pois utiliza técnicas 
 
 ### 2. Modelagem
 
-As informações utilizadas para treinar o chat foram extraídas de documentos oficiais da empresa, como apostilas, manuais, apresentações e panfletos digitais. Para isso, empregou-se a biblioteca PyMuPDF, responsável pela leitura de arquivos PDF. Após a extração, os textos foram divididos em trechos menores (chunks), garantindo que o sistema conseguisse recuperar apenas as partes mais relevantes de acordo com a pergunta. Cada trecho foi convertido em uma representação numérica (embedding) com o OpenAI Embeddings, possibilitando a comparação semântica entre perguntas e documentos. Os vetores foram armazenados em um banco vetorial, que permite localizar rapidamente os trechos mais próximos da pergunta do usuário. Duas bibliotecas foram testadas: FAISS e ChromaDB.Quando o usuário faz uma pergunta, o sistema busca os trechos mais relevantes no banco vetorial e os insere no prompt enviado ao modelo de linguagem (LLM)
+As informações utilizadas para treinar o chat foram extraídas de documentos oficiais da empresa, como apostilas, manuais, apresentações e panfletos digitais. Esses documentos foram compilados e unificados em apenas 2 arquivos. Um para Febracis e outro para Método CIS. E para isso, empregou-se a biblioteca PyMuPDF, responsável pela leitura de arquivos PDF. Após a extração, os textos foram divididos em trechos menores (chunks), garantindo que o sistema conseguisse recuperar apenas as partes mais relevantes de acordo com a pergunta. Cada trecho foi convertido em uma representação numérica (embedding) com o OpenAI Embeddings, possibilitando a comparação semântica entre perguntas e documentos. Os vetores foram armazenados em um banco vetorial, que permite localizar rapidamente os trechos mais próximos da pergunta do usuário. Duas bibliotecas foram testadas: FAISS e ChromaDB.Quando o usuário faz uma pergunta, o sistema busca os trechos mais relevantes no banco vetorial e os insere no prompt enviado ao modelo de linguagem (LLM)
 
 Foram testadas diferentes configurações de temperatura, parâmetro que controla o nível de criatividade do modelo. Valores mais baixos (0–0,3) resultaram em respostas mais objetivas, enquanto valores mais altos (0,7–1,0) produziram explicações mais detalhadas e criativas. 
 
@@ -107,6 +107,7 @@ Matrícula: 231.101.084
 Pontifícia Universidade Católica do Rio de Janeiro
 
 Curso de Pós Graduação *Business Intelligence Master*
+
 
 
 
